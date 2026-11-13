@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SagarSocial - Social Media Growth</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#101426;
+ color:white;
+}
+header{
+ text-align:center;
+ padding:35px 15px;
+ background:linear-gradient(135deg,#673de6,#e1306c);
+}
+header h1{font-size:36px;margin:5px}
+header p{font-size:16px}
+.container{max-width:900px;margin:auto;padding:20px}
+h2{text-align:center;color:#ffbd59}
+.cards{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+ gap:15px;
+}
+.card{
+ background:#202943;
+ padding:22px;
+ border-radius:15px;
+ text-align:center;
+}
+.card h3{font-size:22px}
+.card p{color:#d4d9e8;line-height:1.6}
+button{
+ background:#e1306c;
+ color:white;
+ border:0;
+ padding:13px 22px;
+ border-radius:25px;
+ cursor:pointer;
+ font-size:16px;
+}
+button:hover{background:#673de6}
+#result{
+ background:#202943;
+ padding:20px;
+ border-radius:12px;
+ margin-top:15px;
+ line-height:1.8;
+}
+footer{
+ text-align:center;
+ padding:25px;
+ color:#bbc2d4;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>🚀 SagarSocial</h1>
+<p>Instagram | YouTube | Facebook</p>
+<p>Connect • Create • Share • Grow</p>
+</header>
+
+<div class="container">
+
+<h2>Our Social Media Platforms</h2>
+
+<div class="cards">
+<div class="card">
+<h3>📸 Instagram</h3>
+<p>Grow your Instagram profile with creative reels, quality posts and genuine engagement.</p>
+</div>
+
+<div class="card">
+<h3>▶️ YouTube</h3>
+<p>Improve views, subscribers and watch time with useful videos and engaging content.</p>
+</div>
+
+<div class="card">
+<h3>👍 Facebook</h3>
+<p>Build your Facebook community through posts, videos, likes and real comments.</p>
+</div>
+</div>
+
+<h2>❤️ Our Growth Services</h2>
+
+<div class="cards">
+<div class="card">
+<h3>❤️ More Likes</h3>
+<p>Learn how to create content people love.</p>
+</div>
+
+<div class="card">
+<h3>💬 More Comments</h3>
+<p>Encourage meaningful conversations.</p>
+</div>
+
+<div class="card">
+<h3>👥 More Followers</h3>
+<p>Attract genuine followers organically.</p>
+</div>
+</div>
+
+<h2>📈 Get Your Growth Plan</h2>
+
+<div class="card">
+<p>Click below to get a simple social media growth checklist.</p>
+<button onclick="showPlan()">Get Free Growth Plan</button>
+<div id="result"></div>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 SagarSocial</p>
+<p>Real Growth • Genuine Engagement • Quality Content</p>
+</footer>
+
+<script>
+function showPlan(){
+document.getElementById("result").innerHTML=
+"✅ Post quality content regularly<br>"+
+"✅ Create engaging reels and videos<br>"+
+"✅ Use relevant hashtags<br>"+
+"✅ Reply to genuine comments<br>"+
+"✅ Connect with your audience<br>"+
+"✅ Check your weekly growth";
+}
+</script>
+
+</body>
+</html>
